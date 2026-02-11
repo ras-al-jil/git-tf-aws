@@ -17,5 +17,5 @@ def lambda_handler(event, context):
     
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello from Pipeline Lambda!')
+        'body': json.dumps('All that glitters is gold!')
     }
